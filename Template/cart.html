@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div> <!-- ✅ Bắt đầu thẻ body -->
+
+        <div class="fixed-header">
+            <div class="header-wrapper">
+                <div class="top-bar">
+                    <div class="slider-wrapper">
+                        <div id="text-slider">
+                            Ra mắt STITCH COLLECTION - BETTER TOGETHER •
+                            VOUCHER 10% TỐI ĐA 10K •
+                            VOUCHER 30K ĐƠN TỪ 599K •
+                            VOUCHER 70K ĐƠN TỪ 899K •
+                            VOUCHER 100K ĐƠN TỪ 1199K •
+                            🚛 FREESHIP ĐƠN TỪ 250K •
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-header">
+                <div class="container">
+                    <div class="row header-row">
+                        <div class="col logo">
+                            <img src="images/logo.jpg" alt="" width="160px" height="40px">
+                        </div>
+                        <div class="col menu">
+                            <ul>
+                                <li><a href="#">Sản phẩm</a></li>
+                                <li><a href="#" class="new">Hàng Mới</a></li>
+                                <li><a href="#">Áo Nam</a></li>
+                                <li><a href="#">Quần Nam</a></li>
+                                <li><a href="#">DENIM</a></li>
+                                <li><a href="#">TechUrban</a></li>
+                                <li><a href="#" class="sale">OUTLET -50%</a></li>
+                            </ul>
+                        </div>
+                        <div class="col icons">
+                            <a href="#">🔍</a>
+                            <a href="">👤</a>
+                            <a href="#">🛒</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart">
+                <h2>Giỏ hàng của bạn</h2>
+                <div class="cart-content">
+                    <!-- Cột trái -->
+                    <div class="cart-left">
+                        <table class="table-form">
+                            <tr>
+                                <th>Sản phẩm</th>
+                                <th></th>
+                                <th>Đơn giá</th>
+                                <th>Số lượng</th>
+                                <th>Tổng cộng</th>
+                                <th>Xóa</th>
+                            </tr>
+                            <tr>
+                                <td> PB3.5 - Do-win Giày Chạy Bộ</td>
+                                <td><img src="images/ao1.jpg" alt=""></td>
+                                <td>2,500,000₫</td>
+                                <td>
+                                    <div class="quantity-box">
+                                        <button>-</button>
+                                        <span>1</span>
+                                        <button>+</button>
+                                    </div>
+                                </td>
+                                <td>2,500,000₫</td>
+                                <td><a href="" class="remove"><i class="fa-solid fa-trash"></i></a></td>
+                            </tr>
+                        </table>
+                        <div class="note">
+                            <label for="order-note">Ghi chú đơn hàng</label>
+                            <textarea id="order-note" placeholder="Nhập ghi chú..."></textarea>
+                        </div>
+                        <div class="invoice">
+                            <input type="checkbox" id="export-invoice">
+                            <label for="export-invoice">Xuất hoá đơn cho đơn hàng</label>
+                        </div>
+                    </div>
+
+                    <!-- Cột phải -->
+                    <div class="cart-right">
+                        <h3>Thông tin đơn hàng</h3>
+                        <p><strong>Thời gian giao hàng:</strong></p>
+                        <div>
+                            <label><input type="radio" name="delivery-time" checked> Giao khi có hàng</label><br>
+                            <label><input type="radio" name="delivery-time"> Chọn thời gian</label>
+                        </div>
+                        <p class="total">Tổng tiền: <strong>2,500,000₫</strong></p>
+                        <button class="checkout-btn">THANH TOÁN</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <footer class="footer">
+                <div class="footer-container">
+                    <!-- Cột 1 -->
+                    <div class="footer-column">
+                        <h2>ICON DENIM</h2>
+                        <p><i class="fa-solid fa-phone"></i> Tổng đài CSKH: 02873066060</p>
+                        <p><i class="fa-solid fa-envelope"></i> Email: cskh@icondenim.com</p>
+
+                        <div class="newsletter">
+                            <h4>ĐĂNG KÝ NHẬN TIN</h4>
+                            <p>Hãy là người đầu tiên nhận khuyến mãi lớn!</p>
+                            <input type="email" placeholder="Nhập địa chỉ email">
+                            <button>ĐĂNG KÝ</button>
+                        </div>
+
+                        <div class="social">
+                            <h4>KẾT NỐI VỚI CHÚNG TÔI</h4>
+                            <div class="icons">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-zalo"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-tiktok"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cột 2 -->
+                    <div class="footer-column">
+                        <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+                        <ul>
+                            <li>Chính sách đổi hàng và bảo hành</li>
+                            <li>Chính sách Membership</li>
+                            <li>Chính sách ưu đãi sinh nhật</li>
+                            <li>Chính sách bảo mật</li>
+                            <li>Chính sách giao hàng</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cột 3 -->
+                    <div class="footer-column">
+                        <h4>HỆ THỐNG CỬA HÀNG (11 CH)</h4>
+                        <p><i class="fa-solid fa-location-dot"></i> HỒ CHÍ MINH (9 CH)<br>477-479-481 Sư Vạn Hạnh, Quận
+                            10</p>
+                        <p><i class="fa-solid fa-location-dot"></i> ĐỒNG NAI<br>1357 Phạm Văn Thuận, Biên Hòa</p>
+                        <p><i class="fa-solid fa-location-dot"></i> BÌNH DƯƠNG<br>79 Yersin, Thủ Dầu Một
+                            <strong>New</strong>
+                        </p>
+                        <a href="#">XEM TẤT CẢ CỬA HÀNG</a>
+                    </div>
+
+                    <!-- Cột 4 -->
+                    <div class="footer-column">
+                        <h4>FANPAGE CHÚNG TÔI</h4>
+                        <img src="images/logo.jpg" alt="Fanpage" class="fanpage-img">
+                        <h4>PHƯƠNG THỨC THANH TOÁN</h4>
+                        <div class="payments">
+                            <span>VNPAY</span>
+                            <span>COD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>© Bản quyền thuộc về <a href="#">ICON DENIM</a></p>
+                </div>
+
+            </footer>
+        </div>
+        <script src="javascript/slider.js"></script>
+</body> <!-- ✅ Đóng body -->
+
+</html>
